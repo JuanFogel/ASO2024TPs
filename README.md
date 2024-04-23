@@ -5,15 +5,21 @@
 <p align="center">🔹En este repositorio podran ver los Proyectos y Trabajos Practicos de la materia Arquitectura y Sistemas Operativos de la Tecnicatura Universitaria en Porgramacion de la UTN-FRBB</p>
 
 <div align="center">
-  <h1>Índice</h1>
+  <h1 align="center">Índice</h1>
+  <div align="left">
   <h3><a href="./TP1/TP1_Fogel.png">Práctico 1</a></h3>
+    <h> Generamos un nuevo archivo, con extensión .py (python), y creamos un “Hola mundo”</h>
   <h3><a href="./TP2/ASO-TP2-Fogel.png">Práctico 2</a></h3>
+    <h>Compilado del programa procesos.c. Ejecución de dicho programa y muestra de listado de procesos corriendo</h>
+  </div>
 </div>
 
-<p align="center">
-  <a href="https://skillicons.dev">
+<br>
+
+<div align="center">  
+ <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,git,linux" />    
   </a>
-</p>
+</div>
 
 
