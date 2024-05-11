@@ -11,6 +11,7 @@
     <h> Generamos un nuevo archivo, con extensión .py (python), y creamos un “Hola mundo”.</h>
   <h3><a href="./TP2/ASO-TP2-Fogel.png">Práctico 2</a></h3>
     <h>Compilado del programa procesos.c. Ejecución de dicho programa y muestra de listado de procesos corriendo.</h>
+  <h3><a href="./TP3">Práctico 3</a></h3>
   </div>
 </div>
 
