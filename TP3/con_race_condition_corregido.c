@@ -13,6 +13,7 @@ void *comer_hamburguesa(void *tid)
 	{
 		while (turno != (int)tid)
 		{
+
 			// INICIO DE LA ZONA CRÍTICA
 			if (cantidad_restante_hamburguesas > 0)
 			{
@@ -27,9 +28,8 @@ void *comer_hamburguesa(void *tid)
 				turno = (turno + 1) % NUMBER_OF_THREADS;
 				pthread_exit(NULL); // forzar terminacion del hilo
 			}
-		}
 
-		// SALIDA DE LA ZONA CRÍTICA
+		} // SALIDA DE LA ZONA CRÍTICA
 	}
 }
 

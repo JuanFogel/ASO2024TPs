@@ -7,17 +7,17 @@ rango = 100000
 def sumador():
     global acumulador
     for x in range(rango):
-        a = acumulador + 5
-        for i in range(1000):
-             pass
+        a = acumulador + 4
+        # for i in range(1000):
+        #      pass
         acumulador = a
 
 def restador():
     global acumulador
     for x in range(rango):
-        a = acumulador - 5
-        for i in range(1000):
-              pass
+        a = acumulador - 4
+        # for i in range(1000):
+        #       pass
         acumulador = a
 
 momento_arranque = time.perf_counter()
