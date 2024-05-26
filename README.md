@@ -15,7 +15,10 @@
     <h4>1. <a href="./TP3/Punto.1.pdf">Respuestas.</a></h>
     <h4>2. a. <a href="./TP3/con_race_condition_corregido.c">Codigo funcionando distribuir hamburguesas de manera equitativa.</a></h>
     <h4>2. b. <a href="./TP3/TP3PUNTO2B.png">Diagrama de threads Burger Robot.</a></h>
+    <h3><a href="./TP_GRUPO/Link.Video">⚜️ Práctico 4 Grupal </a></h3>
+    <h4><a href="https://www.youtube.com/watch?v=kSH9ZpXQO1U&feature=youtu.be">Video</a></h>
   </div>
+  
 </div>
 
 <br>
