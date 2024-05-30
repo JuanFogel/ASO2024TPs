@@ -29,4 +29,6 @@
   </a>
 </div>
 
+sudo curl -L https://github.com/docker/compose/releases/download/v2.0.1/docker-compose-linux-$(uname -m) -o /usr/local/bin/docker-compose
+
 
