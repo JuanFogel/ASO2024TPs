@@ -20,8 +20,7 @@
     <h3><a href="./TP 4">⚜️ Práctico 4</a></h3>
     <h4> <a href="./TP 4/Listadecontenedores.png">Listado de contenedores 📷</a></h> 
     <h4> <a href="./TP 4/nginxyphp.png">Creador de servicios phpmyadmin y nginx 📷</a></h>
-    <h4> <a href="./TP 4/CapturasitioUTNFRBB.png">Sitio clonado de UTN-FRBB 📷</a></h>
-    <h4> <a href="./TP 4/Paginamodificada.png">Sitio modificado de UTN-FRBB 📷</a></h>
+    <h4> <a href="./TP 4/frbblocalhost.png">Sitio clonado de UTN-FRBB 📷</a></h>
   </div>
   
 </div>
