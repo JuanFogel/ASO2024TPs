@@ -9,24 +9,50 @@ echo "INGRESE PIEDRA, PAPEL O TIJERAS"
 echo "1. PIEDRA"
 echo "2. PAPEL"
 echo "3. TIJERA"
-read -p "ELEJISTE LA OPCION: " opcion #El usuario elije una opcion de las ya mostradas
+read -p "ELEJISTE LA OPCION: " opcion #El usuario elige una opcion de las ya mostradas
 
 if [ "$opcion_pc" == 1 	-o "$opcion_pc" == 2 -o "$opcion_pc" == 3 ]; then 
+
 echo "ANALIZANDO..."
-sleep 0.5
 echo "■□□□□□□□□□ 10%"          #Asignamos tiempo para que sea mas interactivo a la hora de elegir la maquina
 sleep 0.7
-echo "■■■■□□□□□□ 40%"
-sleep 0.2
+clear
+echo "ANALIZANDO..."
+echo "■■□□□□□□□□ 20%" 
+sleep 0.7
+clear
+echo "ANALIZANDO..."
+echo "■■■□□□□□□□ 30%"  
+sleep 0.7                #Asignamos tiempo para que sea mas interactivo a la hora de elegir la maquina
+clear
+echo "ANALIZANDO..."
+echo "■■■■□□□□□□ 40%" 
+sleep 0.7                #Asignamos tiempo para que sea mas interactivo a la hora de elegir la maquina
+clear
+echo "ANALIZANDO..."
 echo "■■■■■■□□□□ 60%"
-sleep 1
+sleep 0.7
+clear
+echo "ANALIZANDO..."
+echo "■■■■■■■□□□ 70%"
+sleep 0.7
+clear
+echo "ANALIZANDO..."
 echo "■■■■■■■■□□ 80%"
-sleep 0.6
+sleep 0.7
+clear
+echo "ANALIZANDO..."
 echo "■■■■■■■■■■ 100%"
+sleep 0.7
 echo "LA MAQUINA ELIJIO: " $opcion_pc #Muestra la opcion de la maquina
 fi
+echo "1. PIEDRA"
+echo "2. PAPEL"
+echo "3. TIJERA"
 
-if [ "$opcion" -gt 0  -a  "$opcion" -lt 4 ]; then # Comparamos si la opcion ingresada es + que 0 y - que 4
+echo "TU OPCION FUE: " $opcion
+
+if [ "$opcion" -gt 0  -a  "$opcion" -lt 4 ]; then #Comparamos si la opcion ingresada es + que 0 y - que 4
                                                     #para que ingrese.
     if [ "$opcion_pc" -eq "$opcion" ]; then
         echo "EMPATARON"
