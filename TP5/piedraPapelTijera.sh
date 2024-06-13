@@ -56,7 +56,7 @@ echo "3. TIJERA"
 if [ "$opcion" -gt 0  -a  "$opcion" -lt 4 ]; then #Comparamos si la opcion ingresada es + que 0 y - que 4
                                                     #para que ingrese.
     if [ "$opcion_pc" -eq "$opcion" ]; then
-        echo "EMPATARON"
+        echo "EMPATARON, AMBOS ELIGIERON LA OPCION $opcion"
     elif [ "$opcion_pc" -eq "1" -a "$opcion" -eq "2" ]; then
         echo "GANASTE, PAPEL ENVUELVE A PIEDRA"
     elif [ "$opcion_pc" -eq "1" -a "$opcion" -eq "3" ]; then
