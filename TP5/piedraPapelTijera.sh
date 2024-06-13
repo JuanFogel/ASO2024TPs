@@ -8,8 +8,8 @@ opcion_pc=$((RANDOM%3 + 1)) #Genera numeros aleatorios entre 1 y 3
 echo "INGRESE PIEDRA, PAPEL O TIJERAS"
 echo "1. PIEDRA"
 echo "2. PAPEL"
-echo "3. TIJERA"
-read -p "ELEJISTE LA OPCION: " opcion #El usuario elige una opcion de las ya mostradas
+echo  "3. TIJERA"
+read -p "ELEGISTE LA OPCION: " opcion #El usuario elige una opcion de las ya mostradas
 
 if [ "$opcion_pc" == 1 	-o "$opcion_pc" == 2 -o "$opcion_pc" == 3 ]; then 
 
@@ -44,13 +44,14 @@ clear
 echo "ANALIZANDO..."
 echo "■■■■■■■■■■ 100%"
 sleep 0.7
-echo "LA MAQUINA ELIJIO: " $opcion_pc #Muestra la opcion de la maquina
+echo "LA MAQUINA ELIGIO: " $opcion_pc #Muestra la opcion de la maquina
 fi
+
+echo "TU OPCION FUE: " $opcion
+
 echo "1. PIEDRA"
 echo "2. PAPEL"
 echo "3. TIJERA"
-
-echo "TU OPCION FUE: " $opcion
 
 if [ "$opcion" -gt 0  -a  "$opcion" -lt 4 ]; then #Comparamos si la opcion ingresada es + que 0 y - que 4
                                                     #para que ingrese.
@@ -74,3 +75,4 @@ else
     echo "INGRESE UN NUEMERO ENTRE 1 Y 3"
 fi
 exit 0
+
