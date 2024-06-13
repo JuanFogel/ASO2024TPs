@@ -22,8 +22,7 @@
     <h4> <a href="./TP 4/nginxyphp.png">Creador de servicios phpmyadmin y nginx 📷</a></h>
     <h4> <a href="./TP 4/frbblocalhost.png">Sitio clonado de UTN-FRBB 📷</a></h>
     <h3><a href="./TP5">⚜️ Práctico 5</a></h3>
-    <h4> <a href="./TP5/clima.png">Clima en Bariloche 📷</a></h> 
-    <h4> <a href="./TP5/piedrapapeltijera.png">Piedra, papel o tijera 📷</a></h>     
+    <h4> <a href="./TP5/clima.png">Clima en Bariloche 📷</a></h>  
   </div>
   
 </div>
